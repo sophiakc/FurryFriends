@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EA5F03C1DB9890D009E940D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA5F03B1DB9890D009E940D /* Assets.xcassets */; };
 		7EDA7E3E1DB710EE00380FE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA7E3D1DB710EE00380FE1 /* AppDelegate.swift */; };
 		7EDA7E401DB710EE00380FE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA7E3F1DB710EE00380FE1 /* ViewController.swift */; };
 		7EDA7E431DB710EE00380FE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA7E411DB710EE00380FE1 /* Main.storyboard */; };
-		7EDA7E451DB710EE00380FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA7E441DB710EE00380FE1 /* Assets.xcassets */; };
 		7EDA7E481DB710EE00380FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA7E461DB710EE00380FE1 /* LaunchScreen.storyboard */; };
 		7EDA7E531DB710EF00380FE1 /* FurryFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA7E521DB710EF00380FE1 /* FurryFriendsTests.swift */; };
 		7EDA7E5E1DB710EF00380FE1 /* FurryFriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA7E5D1DB710EF00380FE1 /* FurryFriendsUITests.swift */; };
+		7EDA7E6D1DB711CC00380FE1 /* BunnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA7E6C1DB711CC00380FE1 /* BunnyViewController.swift */; };
+		7EDA7E6F1DB723FA00380FE1 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA7E6E1DB723FA00380FE1 /* Common.swift */; };
+		7EDA7E711DB7265A00380FE1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA7E701DB7265A00380FE1 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7EA5F03B1DB9890D009E940D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EDA7E3A1DB710EE00380FE1 /* FurryFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurryFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDA7E3D1DB710EE00380FE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EDA7E3F1DB710EE00380FE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7EDA7E421DB710EE00380FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7EDA7E441DB710EE00380FE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EDA7E471DB710EE00380FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EDA7E491DB710EE00380FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EDA7E4E1DB710EF00380FE1 /* FurryFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurryFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +50,9 @@
 		7EDA7E591DB710EF00380FE1 /* FurryFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurryFriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDA7E5D1DB710EF00380FE1 /* FurryFriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurryFriendsUITests.swift; sourceTree = "<group>"; };
 		7EDA7E5F1DB710EF00380FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDA7E6C1DB711CC00380FE1 /* BunnyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BunnyViewController.swift; sourceTree = "<group>"; };
+		7EDA7E6E1DB723FA00380FE1 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		7EDA7E701DB7265A00380FE1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +103,12 @@
 		7EDA7E3C1DB710EE00380FE1 /* FurryFriends */ = {
 			isa = PBXGroup;
 			children = (
+				7EDA7E6B1DB711BC00380FE1 /* ViewControllers */,
 				7EDA7E3D1DB710EE00380FE1 /* AppDelegate.swift */,
 				7EDA7E3F1DB710EE00380FE1 /* ViewController.swift */,
 				7EDA7E411DB710EE00380FE1 /* Main.storyboard */,
-				7EDA7E441DB710EE00380FE1 /* Assets.xcassets */,
+				7EA5F03B1DB9890D009E940D /* Assets.xcassets */,
+				7EDA7E6E1DB723FA00380FE1 /* Common.swift */,
 				7EDA7E461DB710EE00380FE1 /* LaunchScreen.storyboard */,
 				7EDA7E491DB710EE00380FE1 /* Info.plist */,
 			);
@@ -123,6 +131,15 @@
 				7EDA7E5F1DB710EF00380FE1 /* Info.plist */,
 			);
 			path = FurryFriendsUITests;
+			sourceTree = "<group>";
+		};
+		7EDA7E6B1DB711BC00380FE1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA7E6C1DB711CC00380FE1 /* BunnyViewController.swift */,
+				7EDA7E701DB7265A00380FE1 /* LoginViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EDA7E481DB710EE00380FE1 /* LaunchScreen.storyboard in Resources */,
-				7EDA7E451DB710EE00380FE1 /* Assets.xcassets in Resources */,
+				7EA5F03C1DB9890D009E940D /* Assets.xcassets in Resources */,
 				7EDA7E431DB710EE00380FE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EDA7E6F1DB723FA00380FE1 /* Common.swift in Sources */,
 				7EDA7E401DB710EE00380FE1 /* ViewController.swift in Sources */,
 				7EDA7E3E1DB710EE00380FE1 /* AppDelegate.swift in Sources */,
+				7EDA7E711DB7265A00380FE1 /* LoginViewController.swift in Sources */,
+				7EDA7E6D1DB711CC00380FE1 /* BunnyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +523,7 @@
 				7EDA7E641DB710EF00380FE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EDA7E651DB710EF00380FE1 /* Build configuration list for PBXNativeTarget "FurryFriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +532,7 @@
 				7EDA7E671DB710EF00380FE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EDA7E681DB710EF00380FE1 /* Build configuration list for PBXNativeTarget "FurryFriendsUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +541,7 @@
 				7EDA7E6A1DB710EF00380FE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
